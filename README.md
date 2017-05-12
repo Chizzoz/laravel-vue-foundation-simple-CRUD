@@ -1,8 +1,11 @@
 # laravel-vue-foundation-simple-CRUD
 A Simple Item Create/Read/Update/Delete (CRUD) Application created using Laravel 5.4, Vue.js 2.3.3, Foundation 6.3, Axios and Toastr 2.1 with composer and npm package or dependency management.
+
 So, I came across this tutorial [Laravel 5 and Vue JS CRUD with Pagination example and demo from scratch](http://itsolutionstuff.com/post/laravel-5-and-vue-js-crud-with-pagination-example-and-demo-from-scratchexample.html). After I got the Item CRUD app working, I thought of redoing it with some packages managed by composer, which Laravel mostly utilises, and use Zurb Foundation, instead of Bootstrap, which Laravel utilises straight out of the box. Also, in the link I shared, the author makes use of Vue.js version 1 and Vue-resource for making web requests and handle responses. In this approach, I use Vue.js version 2 and Axios for making web requests and handling responses. Vue and Axios are managed by npm, while the rest of the dependencies are managed by composer.
+
 This is the journey to make the above happen.
-I developed this using Uniserver Zero XIII 13.3.2; Apache Server (PHP 7.1.1), MySQL and the Server Console. Firstly, I installed composer and then got my Apache and MySQL running, then launched the server console to install Laravel and the other dependencies. Below are the steps taken:
+
+I developed this using Uniserver Zero XIII 13.3.2; Apache Server (PHP 7.1.1), MySQL and the Server Console. Firstly, you install composer and then get your Apache and MySQL running, then launch the server console to install Laravel and the other dependencies. Below are the steps taken:
 
 1. Install Laravel in folder named 'laravel-vue-foundation-simple-CRUD'
 ```cmd
@@ -53,11 +56,11 @@ php artisan migrate
   SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table `users` add unique `users_email_unique`(`email`))
 ```
 8. So, to solve the above error. EDIT: app\Providers\AppServiceProvider.php
-   Add:
+Add:
 ```php
 use Illuminate\Support\Facades\Schema;
 ```
-   Then modify boot as follows:
+Then modify boot as follows:
 ```php
 public function boot()
     {
@@ -81,7 +84,7 @@ npm install cross-env --save-dev
 npm install vue --save-dev
 npm update
 ```
-   Also, we'll install some packages using composer.
+Also, we'll install some packages using composer.
 ```cmd
 composer require components/jquery
 composer require grimmlink/toastr
@@ -254,7 +257,7 @@ class LoginController extends Controller
     }
 }
 ```
-   RegisterController.php
+RegisterController.php
 ```php
 <?php
 
@@ -403,7 +406,7 @@ Route::resource('vueitems', 'VueItemController');
 @include foundation-float-classes;
 ```
 18. EDIT: vendor\zurb\foundation\scss\settings\_settings.scss
-    Line 44
+Line 44
 ```php
 @import '../util/util';
 ```
@@ -429,8 +432,8 @@ const app = new Vue({
     el: '#manage-vue'
 });
 ```
-    bootstrap.js
-``php
+bootstrap.js
+```php
 window._ = require('lodash');
 
 /**
@@ -786,7 +789,7 @@ mix.copy('vendor/grimmlink/toastr/build/toastr.min.js', 'public/js');
 	</body>
 </html>
 ```
-25. EDIT: resources\views\welcome.blade.php, auth\login.blade.php
+25. EDIT: resources\views\auth\login.blade.php
 ```php
 @extends('layouts.app')
 
@@ -844,7 +847,7 @@ mix.copy('vendor/grimmlink/toastr/build/toastr.min.js', 'public/js');
 </div>
 @endsection
 ```
-    auth\register.blade.php
+auth\register.blade.php
 ```php
 @extends('layouts.app')
 
