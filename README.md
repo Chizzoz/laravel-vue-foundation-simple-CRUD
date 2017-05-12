@@ -26,12 +26,22 @@ php artisan make:migration create_items_table --create=items
             $table->string('username');
 ...
 ```
-5. EDIT: config\app.php, database.php
+5. EDIT: config\app.php
    Give your app a name and make any other necessary configs
 ```php
+    /*
+    |--------------------------------------------------------------------------
+    | Application Name
+    |--------------------------------------------------------------------------
+    |
+    | This value is the name of your application. This value is used when the
+    | framework needs to place the application's name in a notification or
+    | any other location as required by the application or its packages.
+    */
 
+    'name' => env('APP_NAME', 'Simple CRUD'),
 ```
-   Change databse configs
+database.php
 ```php
 'strict' => false,
 'engine' => 'InnoDB',
@@ -355,7 +365,7 @@ Auth::routes();
 Route::get('manage-vue', array('as' => 'manage-vue', 'uses' => 'VueItemController@manageVue'));
 Route::resource('vueitems', 'VueItemController');
 ```
-17. DELETE: resources\assets\sass\_variables.scss and then EDIT: resources\assets\sass\app.scss
+17. DELETE: resources\assets\sass\_variables.scss and then EDIT: resources\assets\sass\app.scss as follows:
 ```php
 // Fonts
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
