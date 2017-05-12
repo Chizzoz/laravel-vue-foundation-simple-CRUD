@@ -3,7 +3,8 @@ A Simple Item Create/Read/Update/Delete (CRUD) Application created using Laravel
 
 So, I came across this tutorial [Laravel 5 and Vue JS CRUD with Pagination example and demo from scratch](http://itsolutionstuff.com/post/laravel-5-and-vue-js-crud-with-pagination-example-and-demo-from-scratchexample.html). After I got the Item CRUD app working, I thought of redoing it with some packages managed by composer, which Laravel mostly utilises, and use Zurb Foundation, instead of Bootstrap, which Laravel utilises straight out of the box. Also, in the link I shared, the author makes use of Vue.js version 1 and Vue-resource for making web requests and handle responses. In this approach, I use Vue.js version 2 and Axios for making web requests and handling responses. Vue and Axios are managed by npm, while the rest of the dependencies are managed by composer.
 
-This is the journey to make the above happen.
+This is the journey to make the image below happen.
+![screencapture-laravel-vue-foundation-simple-CRUD.png](screencapture-laravel-vue-foundation-simple-CRUD.png)
 
 I developed this using Uniserver Zero XIII 13.3.2; Apache Server (PHP 7.1.1), MySQL and the Server Console. Firstly, you install composer and then get your Apache and MySQL running, then launch the server console to install Laravel and the other dependencies. Below are the steps taken:
 
