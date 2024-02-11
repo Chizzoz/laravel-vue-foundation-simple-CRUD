@@ -1,0 +1,279 @@
+repo_name: Chizzoz/laravel-vue-foundation-simple-CRUD
+report_id: 709a4a6e3f66a7437e5de8603311eec5
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T17:05:48+00:00'
+requested_by: Chizzoz
+provider: github
+branch: master
+detected_tools_count: 21
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/public/js/app.js
+  detection_source: public/js/app.js
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD
+  detection_source: Repo Metadata
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 5.4.23
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD
+  detection_source: Repo Metadata
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 5.7.19
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.4
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: laravel-mix
+  description: A framework for web artisans.
+  website_url: https://laravel.com/docs/5.5/mix
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: components/jquery
+  description: JQuery JavaScript Library
+  package_url: https://packagist.org/components/jquery
+  version: 3.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: fzaninotto/faker
+  description: Faker is a PHP library that generates fake data for you
+  package_url: https://packagist.org/fzaninotto/faker
+  version: 1.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 5.4.23
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 0.9.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 5.7.19
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: zurb/foundation
+  description: The most advanced responsive front-end framework in the world
+  package_url: https://packagist.org/zurb/foundation
+  version: 6.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/Chizzoz/laravel-vue-foundation-simple-CRUD/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Chizzo Cheese
+  last_updated_on: 2017-05-12 16:25:42.000000000 Z
